@@ -1,0 +1,24 @@
+@mixin encabezados ($tamano-titulo){
+    h1{
+        font-size: $tamano-titulo;
+    }
+
+    h2{
+        font-size: $tamano-titulo - 0.2;
+    }
+
+    h3{
+        font-size: $tamano-titulo - 0.4;
+    }
+
+    h4{
+        font-size: $tamano-titulo - 0.6;
+    }
+}
+
+@mixin tamaños($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+  

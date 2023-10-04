@@ -1,0 +1,143 @@
+@use "sass:map";
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/fonts";
+@import "./partials/personalizados";
+
+
+
+
+/* ========================   Estilos generales   ============================= */
+nav.navbar {
+    background-color: $bg-color-perso;
+
+    a.logo-navbar {
+        overflow: hidden;
+    }
+
+    a:hover .logo-navbar {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.1);
+        transition: all 0.3s ease-out;
+    }
+
+    div ul li a.nav-link {
+        color: white;
+        font-family: $fuente-perso;
+        font-size: 13px;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+footer.pie-pagina {
+
+    .footer-gral {
+        background-color: $bg-color-perso;
+
+        .logo-automotora-footer {
+            @include tamaños(350px, 130px);
+        }
+
+        .text-footer {
+            font-family: $fuente-perso;
+        }
+
+        a.text-footer {
+            color: white;
+        }
+
+        .text-copyright {
+            color: white;
+        }
+
+        .text-copyright:hover {
+            color: red;
+        }
+
+        .social-media-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+
+        .social-media-button {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            outline: 2px solid white;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: grid;
+            place-items: center;
+        }
+
+        .social-media-button:hover {
+            outline-offset: 3px;
+            transition: all 0.3s;
+        }
+
+        .social-media-button img {
+            transition: all 0.3s;
+        }
+
+        .social-media-button:hover img {
+            transform: scale(1.15);
+        }
+
+        .social-media-button:hover:nth-child(1) {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%,
+                    #fdf497 5%, #fd5949 45%,
+                    #d6249f 60%, #285AEB 90%);
+        }
+
+        .social-media-button:hover:nth-child(2) {
+            background-color: skyblue;
+        }
+
+        .social-media-button:hover:nth-child(3) {
+            background-color: red;
+        }
+
+        .social-media-button:hover:nth-child(4) {
+            background-color: rgb(0, 119, 181);
+        }
+    }
+
+}
+
+
+
+/* =========================   Estilos Index   ============================== */
+
+
+section.portada {
+    background-image: url(../img/Fondos/BMW\ fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+}
+
+section.sec_ventas{
+        img.imagenProducto{
+            width: 300px;
+        }
+    }
+
+
+
+
+  
+
+
+
+
+
+
+
+
