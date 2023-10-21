@@ -25,7 +25,6 @@
   background-color: #27374d;
 }
 
-/* ========================   Estilos generales   ============================= */
 nav.navbar {
   background-color: #27374d;
 }
@@ -104,7 +103,6 @@ footer.pie-pagina .footer-gral .social-media-button:hover:nth-child(4) {
   background-color: rgb(0, 119, 181);
 }
 
-/* =========================   Estilos Index   ============================== */
 section.portada {
   background-image: url(../img/Fondos/BMW\ fondo.png);
   background-repeat: no-repeat;
@@ -112,8 +110,94 @@ section.portada {
   height: 650px;
 }
 
-section.sec_ventas img.imagenProducto {
-  width: 300px;
+section.sec_ventas #contenedorVehiculos {
+  display: flex;
+  justify-content: space-around;
+}
+section.sec_ventas .card-title {
+  font-size: 1.5rem;
+}
+section.sec_ventas .btn-agregar {
+  border: solid 3px white;
+  border-radius: 8px;
+  background-color: #27374d;
+  color: white;
+}
+section.sec_ventas .btn-agregar:hover {
+  border: solid 3px #27374d;
+  border-radius: 8px;
+  background-color: white;
+  color: #27374d;
+}
+section.sec_ventas .btn-buscar {
+  background-color: #27374d;
+  color: white;
+  border: #27374d 1px solid;
+  border-radius: 2px;
+}
+section.sec_ventas .btn_filtro {
+  border: solid 3px white;
+  border-radius: 8px;
+  background-color: #27374d;
+  color: white;
+}
+section.sec_ventas .btn_filtro:hover {
+  border: solid 3px #27374d;
+  border-radius: 8px;
+  background-color: white;
+  color: #27374d;
+}
+section.sec_ventas .btn-borrarFiltro {
+  width: 30px;
+}
+section.sec_ventas .btn-borrarFiltro:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+  transition: all 0.3s ease-out;
+}
+section.sec_ventas .card-price {
+  color: green;
+}
+section.sec_ventas .tarjProdCarrito {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: white;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+section.sec_ventas .btn-fn-compra {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 15px;
+  background-color: #27374d;
+  border: #27374d solid 1px;
+  border-radius: 5px;
+}
+section.sec_ventas .btn-fn-compra:hover {
+  background-color: white;
+  color: #27374d;
+  font-size: 17px;
+  border: #27374d 2px solid;
+}
+section.sec_ventas .modelo-title {
+  font-size: 26px;
+}
+section.sec_ventas .precio-title {
+  font: 300;
+  font-size: 23px;
+  color: green;
 }
 
 /*# sourceMappingURL=style.css.map */

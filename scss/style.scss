@@ -8,7 +8,7 @@
 
 
 
-/* ========================   Estilos generales   ============================= */
+
 nav.navbar {
     background-color: $bg-color-perso;
 
@@ -31,6 +31,7 @@ nav.navbar {
             color: red;
         }
     }
+
 }
 
 footer.pie-pagina {
@@ -111,10 +112,6 @@ footer.pie-pagina {
 }
 
 
-
-/* =========================   Estilos Index   ============================== */
-
-
 section.portada {
     background-image: url(../img/Fondos/BMW\ fondo.png);
     background-repeat: no-repeat;
@@ -123,21 +120,109 @@ section.portada {
 
 }
 
-section.sec_ventas{
-        img.imagenProducto{
-            width: 300px;
-        }
+section.sec_ventas {
+    #contenedorVehiculos {
+        display: flex;
+        justify-content: space-around;
     }
 
+    .card-title {
+        font-size: 1.5rem;
+    }
 
+    .btn-agregar {
+        border: solid 3px white;
+        border-radius: 8px;
+        background-color: $bg-color-perso;
+        color: white;
 
+    }
 
-  
+    .btn-agregar:hover {
+        border: solid 3px #27374d;
+        border-radius: 8px;
+        background-color: white;
+        color: $bg-color-perso;
+    }
 
+    .btn-buscar{
+        background-color: #27374d;
+        color: white;
+        border: #27374d 1px solid;
+        border-radius: 2px;
+    }
 
+    .btn_filtro {
+        border: solid 3px white;
+        border-radius: 8px;
+        background-color: $bg-color-perso;
+        color: white;
+    }
 
+    .btn_filtro:hover{
+        border: solid 3px #27374d;
+        border-radius: 8px;
+        background-color: white;
+        color: $bg-color-perso;
+    }
 
+    .btn-borrarFiltro{
+        width: 30px;
+    }
+    .btn-borrarFiltro:hover{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.1);
+        transition: all 0.3s ease-out;
+    }
 
+    .card-price {
+        color: green;
+    }
 
+    .tarjProdCarrito {
+        width: 80%;
+        margin: 0 10%;
+        max-height: 88vh;
+        color: white;
+        background-color: rgb(29, 29, 29);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        overflow: auto;
+        z-index: 9;
+        top: 12vh;
+        scrollbar-color: none;
+        border: solid 1px white;
+        border-radius: 10px;
+    }
 
+    .btn-fn-compra {
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 15px;
+        background-color: #27374d;
+        border: #27374d solid 1px;
+        border-radius: 5px;
+    }
 
+    .btn-fn-compra:hover {
+        background-color: white;
+        color: #27374d;
+        font-size: 17px;
+        border: #27374d 2px solid;
+
+    }
+
+    .modelo-title {
+        font-size: 26px;
+    }
+
+    .precio-title {
+        font: 300;
+        font-size: 23px;
+        color: green;
+    }
+}

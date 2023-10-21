@@ -1,0 +1,133 @@
+[
+    {
+        "id": 1,
+        "nombre": "BMW M3",
+        "año": "2015",
+        "categoria": "Sport",
+        "precio": 119000,
+        "stock": 1,
+        "imagen": "bmw-M3-prima.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "Fiat 147 cs",
+        "año": "1989", "categoria": "Street", "precio": 5400, "stock": 1, "imagen": "fiat-147-prima.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "Shelby Cobra",
+        "año": "1968",
+        "categoria": "Classic",
+        "precio": 73500,
+        "stock": 0,
+        "imagen": "cobra-prima.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Fiat Marea",
+        "año": "2002",
+        "categoria": "Street",
+        "precio": 12300,
+        "stock": 1,
+        "imagen": "fiat-marea-prima.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Volkswagen Fusca",
+        "año": "1974",
+        "categoria": "Classic",
+        "precio": 15800,
+        "stock": 1,
+        "imagen": "fusca-conver-prima.jpeg"
+    },
+    {
+        "id": 6,
+        "nombre": "GM chevette V6",
+        "año": "1977",
+        "categoria": "Racing",
+        "precio": 19300,
+        "stock": 0,
+        "imagen": "gm-chevetteV6-prima.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Volkswagen Gol G1T",
+        "año": "1989",
+        "categoria": "Racing",
+        "precio": 13000,
+        "stock": 1,
+        "imagen": "gol-g1T-prima.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre": "Jaguar Hot Rod",
+        "año": "1954",
+        "categoria": "Classic",
+        "precio": 68000,
+        "stock": 0,
+        "imagen": "hotrod-coupe-prima.jpeg"
+    },
+    {
+        "id": 9,
+        "nombre": "Mazda MX-5",
+        "año": "2017",
+        "categoria": "Street",
+        "precio": 14300,
+        "stock": 1,
+        "imagen": "mazda-newmx5-prima.jpeg"
+    },
+    {
+        "id": 10,
+        "nombre": "Volkswagen Passat",
+        "año": "1981",
+        "categoria": "Street",
+        "precio": 68000,
+        "stock": 1,
+        "imagen": "passat-ts-prima.jpeg"
+    },
+    {
+        "id": 11,
+        "nombre": "Mini Cooper S",
+        "año": "2010",
+        "categoria": "Street",
+        "precio": 23000,
+        "stock": 1,
+        "imagen": "mini-cooper-prima.jpeg"
+    },
+    {
+        "id": 12,
+        "nombre": "Porsche 911 carrera",
+        "año": "2017",
+        "categoria": "Sport",
+        "precio": 133000,
+        "stock": 1,
+        "imagen": "porsche-911-prima.jpeg"
+    },
+    {
+        "id": 13,
+        "nombre": "Subaru WRX",
+        "año": "2006",
+        "categoria": "Racing",
+        "precio": 63500,
+        "stock": 0,
+        "imagen": "subaru-wrx-prima.jpeg"
+    },
+    {
+        "id": 14,
+        "nombre": "Ford Escort XR",
+        "año": "1992",
+        "categoria": "Street",
+        "precio": 8600,
+        "stock": 0,
+        "imagen": "escort-ford-prima.jpeg"
+    },
+    {
+        "id": 15,
+        "nombre": "Audi TT",
+        "año": "2010",
+        "categoria": "Sport",
+        "precio": 31000,
+        "stock": 1,
+        "imagen": "Audi-tt-prima.jpg"
+    }
+]
